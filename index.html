@@ -53,6 +53,7 @@
 <script>
 //function on iframe load
 $('#iframe').on('load', function() {
+    const frame = document.getElementById('iframe');
     $('#map > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-in').remove()
     $('#map > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-out').remove()
     setTimeout(2000)
